@@ -1,4 +1,4 @@
-# COURSE-COMPANION (IN PROGRESS) - Copyright Abhinav Thapa 2022
+# Course-Companion (In Progress) - Copyright Abhinav Thapa 2022
 
 ### Aim of the project is to allow users to `log-in` and `book courses` of their choice. If the course is already booked, you will be added to the `waitlist`. If you have booked the course then you can `cancel` it anytime before 30min to the class.
 
