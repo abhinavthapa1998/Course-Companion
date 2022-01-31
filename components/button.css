@@ -1,0 +1,33 @@
+.btn-container{
+    align-self:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 40vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0.5vh 0.5vw 5px rgba(0, 0, 0, 0.08);
+    transition: 0.2s ease all;
+}
+.btn-container:hover{
+    transform: scale(0.98);
+    cursor: pointer;
+    box-shadow: 0.2vh 0.2vw 3px rgba(0, 0, 0, 0.1);
+}
+.btn-text{    
+    font-family: Century Gothic, "sans-serif";
+    font-size: 2.5vmax;
+    font-weight: 60;
+    color: #E0AA01;
+    user-select: none;
+}
+/* RESPONSIVE */
+@media only screen and (max-width:768px) {
+    .btn-container{
+        width: 80vw;
+    }
+    .btn-text{
+        font-size: 3vmax;
+    }
+}

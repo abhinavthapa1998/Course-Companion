@@ -1,0 +1,28 @@
+{
+  "subjects": [
+    {
+      "name": "Indian Polity",
+      "url": "./public/indianpolity.jpg",
+      "schedule": "4:30PM",
+      "seats": "18",
+      "wait": [],
+      "booked": false
+    },
+    {
+      "name": "Geography",
+      "url": "./public/geog.jpg",
+      "schedule": "3:30PM",
+      "seats": "20",
+      "wait": ["user-2"],
+      "booked": false
+    },
+    {
+      "name": "History",
+      "url": "./public/history.jpg",
+      "schedule": "2:30PM",
+      "seats": "18",
+      "wait": [],
+      "booked": true
+    }
+  ]
+}

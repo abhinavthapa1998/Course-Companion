@@ -1,0 +1,82 @@
+.logincard{
+    align-self: center;
+    margin-left: -4vw;
+    margin-top: -4vh;
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 19px;
+    background-color: white;
+    box-shadow:0.5vh 0.5vw 5px rgba(0, 0, 0, 0.08); 
+    position: relative;
+    overflow: hidden;
+}
+.loginhead{
+    align-self: center;
+    font-family: Century Gothic, "sans-serif";
+    color: #e09201;
+    font-size: 3.5vh;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+.loginsub{
+    align-self: center;
+    font-family: Century Gothic, "sans-serif";
+    font-size: 1.7vh;
+    color: #e09201;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+.label{
+    font-family: Century Gothic, "sans-serif";
+    font-size: 2.5vh;
+    color: #e09201;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+.input{
+    margin-left: 1vw;
+    padding-left: 1vw ;
+    height: 40%;
+    width: 80%;
+    font-family: Century Gothic, "sans-serif";
+    font-size: 2vh;
+    border-style: hidden;
+}
+.lgn-btn{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-left: 15%;
+    font-family: Century Gothic, "sans-serif";
+    font-size: 3vh;
+    color: white;
+    background-color: #e09201;
+    border: none;
+    border-radius: 40px;
+    transition: 0.2s ease all;
+    box-shadow: 0.2vh 0.2vw 5px rgba(0, 0, 0, 0.08);
+}
+.lgn-btn:hover{
+    transform: scale(0.98);
+    box-shadow: 0.1vh 0.1vw 5px rgba(0, 0, 0, 0.08);
+}
+@media only screen and (max-width:768px){
+    
+    .logincard{
+        margin-bottom: 10vh;
+        width: 90vw;
+    }
+    .label{
+        margin-top: 4vh;
+        margin-left: 6vw;
+    }
+    .input{
+        margin-left: 6vw;
+    }
+
+}

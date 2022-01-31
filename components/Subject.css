@@ -1,0 +1,148 @@
+.subjectcard{
+    height: 60vh;
+    width: 20vw;
+    margin-left: 1vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0.3vh 0.3vw 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+.cardtitle{
+    user-select: none;
+    align-self: center;
+    margin-top: 1vh;
+    font-family: Century Gothic,"sans-serif";
+    font-size: 5vh;
+    color: #E0AA01;
+    font-weight: 100;
+}
+.subjectimage{
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+    height: 30vh;
+    width: 17vw;
+}
+.schedule{
+    user-select: none;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 2vh;
+    
+}
+.schedule div{
+    margin: 1vw;
+    font-family: Century Gothic, "sans-serif";
+    color: #E0AA01;
+    font-size: 2.3vh;
+    
+}
+.booker{
+    align-self: center;
+    width: 7vw;
+    height: 7vh;
+    margin: 3vh;
+    margin-bottom: 2vh;
+}
+.button{
+    user-select: none;
+    align-self: center;
+    width: 7vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #048300;
+    border-radius: 5px;
+    font-family: Century Gothic, "sans-serif";
+    font-size: 3.5vh;
+    color:white;
+    box-shadow: 0.2vh 0.2vw 5px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease all;
+}
+.button-wait{
+    user-select: none;
+    align-self: center;
+    width: 7vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e79a0a;
+    border-radius: 5px;
+    font-family: Century Gothic, "sans-serif";
+    font-size: 3.5vh;
+    color:white;
+    box-shadow: 0.2vh 0.2vw 5px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease all;
+}
+.button-cancel{
+    user-select: none;
+    align-self: center;
+    width: 7vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b91818;
+    border-radius: 5px;
+    font-family: Century Gothic, "sans-serif";
+    font-size: 3.5vh;
+    color:white;
+    box-shadow: 0.2vh 0.2vw 5px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease all;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(0.97);
+    box-shadow: 0.1vh 0.1vw 5px rgba(0, 0, 0, 0.3);
+}
+.button-wait:hover{
+    cursor: pointer;
+    transform: scale(0.97);
+    box-shadow: 0.1vh 0.1vw 5px rgba(0, 0, 0, 0.3);
+}
+.button-cancel:hover{
+    cursor: pointer;
+    transform: scale(0.97);
+    box-shadow: 0.1vh 0.1vw 5px rgba(0, 0, 0, 0.3);
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+    .subjectcard{
+        width: 100%;
+        height: 80%;
+        margin: 10vh;
+    }
+    .cardtitle{
+        font-size: 8vw;
+    }
+    .schedule div{
+        font-size: 5.3vw;
+    }
+    .subjectimage{
+        width: 80%;
+        margin: auto;
+    }
+    .booker{
+        
+        margin-bottom: 2vh;
+        width: 80%;
+    }
+    .button{
+       
+        width: 100%;
+        font-size: 5.5vw;
+    }
+    .button-wait{
+       
+        width: 100%;
+        font-size: 5.5vw;
+    }
+    .button-cancel{
+       
+        width: 100%;
+        font-size: 5.5vw;
+    }
+}
