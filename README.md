@@ -13,7 +13,7 @@
 ## Subject Booking on Desktop.
 <img src="./GIFs/SubjectDesktop.gif"   height="70%" width="80%" />
 
-### Course name, seats, booking status is being fetched from data.json locally, and any change to the course availability in the json will automatically reflect in the webpage. It is dynamically coded.
+### Course `name`, `seats`, `booking status` is being fetched from `data.json` locally, and any change to the course availability in the json will automatically reflect in the webpage. It is `dynamically coded`.
 
 ## Subject Booking on `mobile devices`.
 <img src="./GIFs/SubjectResponsive.gif" height="70%" width="80%" />
