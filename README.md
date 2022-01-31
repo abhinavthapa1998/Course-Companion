@@ -2,26 +2,26 @@
 
 ### Aim of the project is to allow users to `log-in` and `book courses` of their choice. If the course is already booked, you will be added to the `waitlist`. If you have booked the course then you can `cancel` it anytime before 30min to the class.
 
-## Landing Page on Desktop
+## Landing Page on Desktop.
 <img src="./GIFs/LandingDesktop.gif"  height="70%" width="80%" />
 
 ### Basic `authentication` and `authorization` to be implemented using `JWT Token` in the future.
 
-## Landing Page on `mobile devices`
+## Landing Page on `mobile devices`.
 <img src="./GIFs/LandingResponsive.gif"   height="70%" width="80%" />
 
-## Subject Booking on Desktop
+## Subject Booking on Desktop.
 <img src="./GIFs/SubjectDesktop.gif"   height="70%" width="80%" />
 
 ### Course name, seats, booking status is being fetched from data.json locally, and any change to the course availability in the json will automatically reflect in the webpage. It is dynamically coded.
 
-## Subject Booking on `mobile devices`
+## Subject Booking on `mobile devices`.
 <img src="./GIFs/SubjectResponsive.gif" height="70%" width="80%" />
 
-## Project Design on FIGMA
+## Project Design on `Figma`.
 <img src="./GIFs/FigmaProject.gif" height="70%" width="80%" />
 
-### All images used belong to `unsplash`, `flaticons`
+### All images used belong to `unsplash`, `flaticons`.
 
 # Project Notes:-
 ### Run `npm install` and `npm run dev`
@@ -31,7 +31,7 @@
 ### CSS `Flexbox` is used to position the elements and `useState()` hook is used to dynamically change the elements.
 
 
-## Created from scratch by Abhinav Thapa - 2022. 
+## Created from scratch by `Abhinav Thapa` - `2022`. 
 
 
 
