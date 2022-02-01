@@ -28,6 +28,7 @@
 ### `Vite.js` is used for creating the react-app and `pnpm` as package manager.
 ### The project is made solely on `React.js` and vanilla `CSS`, will include backend with Node.js and Express.js in the future.
 ### The project was designed first on FIGMA as seen above, and all the files are available in the `Design` folder.
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ### CSS `Flexbox` is used to position the elements and `useState()` hook is used to dynamically change the elements.
 
 
